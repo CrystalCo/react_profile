@@ -1,47 +1,30 @@
-hr {
-    width: 50px;
-    margin-left: 0px;
+* {
+    box-sizing: border-box;
 }
 
 .Post {
     border-radius: 3px;
-    border: 1px solid #e6e6e6;
     background-color: #fff;
     margin-bottom: 60px;
-    margin-left : 20%;
-    margin-right: 20%;
-}
+    padding-left: 5%;
+    padding-right: 5%;
+} 
 
-.Post-user {
-    display: flex;
-    padding: 16px;
-    align-items: center;
-}
-
-.Post-user-avatar {
-    width: 30px;
-    height: 30px;
-}
-
-.Post-user-avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
-.Post-user-projectTitle {
-    margin-left: 12px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
+.responsive {
+    border: 1px solid #e6e6e6;
+    float: left;
+    width: 20%;
+    margin: 1% 2%;
 }
 
 .Post-image-bg {
     background-color: #efefef;
 }
 
-.Post-image img {
+.gallery img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .Post-caption {
@@ -57,4 +40,24 @@ hr {
     display: none;
     visibility: hidden;
     opacity: 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 45%;
+        margin: 13px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+hr {
+    width: 50px;
+    margin-left: 0px;
 }

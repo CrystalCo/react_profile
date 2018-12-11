@@ -14,8 +14,10 @@ class App extends Component {
         </header>
         <div>
           <section className="App-main">
-            <Post projectTitle="Jake" avatar="https://www.laravelnigeria.com/img/chris.jpg" caption="Moving the community!" image="https://cdn.shopify.com/s/files/1/1486/5206/products/31936576_10214677989917098_8725086252048580608_n_5fd9e59f-ec17-4a70-bdb0-f839025b2acb.jpg?v=1544231337" />
-            <Post projectTitle="Gunnar" avatar={require('../Post/gunnar.jpg')} caption="Holding a mic" image="https://pbs.twimg.com/media/DOXI0IEXkAAkokm.jpg" />
+            <Post projectTitle="HiFi Fitness" caption="18x24 poster for the Bears Chicago gallery show" image={require('../Post/images/hifi_site.png')} />
+            <Post projectTitle="Gunnar" caption="18x24 poster for the Blackhawks" image="https://cdn.shopify.com/s/files/1/1486/5206/products/jake.jpg?v=1544131507" />
+            <Post projectTitle="Jake" caption="18x24 poster for the Bears Chicago gallery show" image="https://cdn.shopify.com/s/files/1/1486/5206/products/BEARS-PRINT-FINAL_2.jpg?v=1544391690" />
+            <Post projectTitle="Gunnar" caption="18x24 poster for the Blackhawks" image="https://cdn.shopify.com/s/files/1/1486/5206/products/jake.jpg?v=1544131507" />
             
           </section>
         </div>
