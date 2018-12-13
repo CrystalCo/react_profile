@@ -13,8 +13,8 @@
 .responsive {
     border: 1px solid #e6e6e6;
     float: left;
-    width: 20%;
-    margin: 1% 2%;
+    width: 30%;
+    margin: 1% 1%;
 }
 
 .Post-image-bg {
@@ -42,17 +42,18 @@
     opacity: 0;
 }
 
-
+/*  Media  */
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 45%;
-        margin: 13px;
+        margin: 2%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .responsive {
-        width: 100%;
+        width: 90%;
+        margin: 5%;
     }
 }
 

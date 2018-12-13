@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+/* HEADER */
+
+.container-fluid {
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+nav.navbar {
+    font-size: 1.7em;
+    font-family: 'Mukta', sans-serif;
+    height: 77px;
+    margin: 0 auto;
+    padding: 26px 0px 10px 0px;
+}
+
+.nav li {
+   position: relative;
+   line-height: 1em;
+   display: inline-block;
+} 
+
+ul.nav.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.Header-nav-item {
+    padding: 0 10px;
+}
+
+li.logo {
+    position: absolute;
+}
+
+li.nav-item {
+    float: right;
+}
+/* BODY */
+
